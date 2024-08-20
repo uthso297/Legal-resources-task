@@ -8,14 +8,20 @@
     <!-- DaisyUi+Tailwind Css -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script>
         tailwind.config = {
             theme: {
+
                 extend: {
                     colors: {
                         primary: '#B68C5A',
                     }
+
                 }
             }
         }
@@ -67,8 +73,8 @@
                         </ul>
                     </div>
                     <div class="flex items-center space-x-3">
-                        <img class="h-11" src="images/business.png" alt="">
-                        <a class="font-bold text-xl">Justice</a>
+                        <img class="h-11" src="images/logo2.png" alt="">
+                        <!-- <a class="font-bold text-xl">Justice</a> -->
                     </div>
                 </div>
                 <div class="navbar-center hidden lg:flex">
@@ -114,7 +120,158 @@
 
     </header>
 
-    <main>
+    <main class="md:container md:max-w-[90%] px-1 mx-auto mt-10">
+
+        <!-- <div class="bg-primary rounded-full h-7 w-7 flex items-center justify-center">
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+        </div>
+        <button class="bg-primary rounded-full h-7 w-7 flex items-center justify-center">
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+        </button> -->
+
+        <!-- Practice area section -->
+
+        <div class="mb-8">
+            <h2 class="font-bold text-3xl text-center">
+                The Legal Practice Area
+            </h2>
+            <p class="text-center w-1/2 mx-auto">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 mb-10">
+
+            <!-- Box-1 -->
+
+
+
+            <div class="space-y-4 md:border-r-[1px] border-[rgb(231,231,231,1)] border-b-[1px] pb-3">
+
+                <img class="mx-auto" src="images/business.png" alt="">
+
+                <h3 class="text-center font-bold">Business Law</h3>
+
+                <p class="w-1/2 mx-auto text-center">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.
+                </p>
+
+                <div class="text-center">
+                    <button class="btn btn-circle bg-primary">
+                        <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                    </button>
+                </div>
+
+
+
+            </div>
+
+            <!-- Box-2 -->
+
+            <div class="space-y-4 md:border-r-[1px] border-b-[1px] border-[rgb(231,231,231,1)]  py-3">
+
+                <img class="mx-auto" src="images/criminal.png" alt="">
+
+                <h3 class="text-center font-bold">Criminal Law</h3>
+
+                <p class="w-1/2 mx-auto text-center">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.
+                </p>
+
+                <div class="text-center">
+                    <button class="btn btn-circle bg-primary">
+                        <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- Box-3 -->
+
+            <div class="space-y-4 border-b-[1px] border-[rgb(231,231,231,1)] py-3">
+
+                <img class="mx-auto" src="images/child.png" alt="">
+
+                <h3 class="text-center font-bold">Child Support</h3>
+
+                <p class="w-1/2 mx-auto text-center">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.
+                </p>
+
+                <div class="text-center">
+                    <button class="btn btn-circle bg-primary">
+                        <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Box-4 -->
+
+            <div class="space-y-4 md:border-r-[1px] border-[rgb(231,231,231,1)] border-b-[1px] md:border-b-0 py-3">
+
+                <img class="mx-auto" src="images/education.png" alt="">
+
+                <h3 class="text-center font-bold">Education Law</h3>
+
+                <p class="w-1/2 mx-auto text-center">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.
+                </p>
+
+                <div class="text-center">
+                    <button class="btn btn-circle bg-primary">
+                        <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Box-5 -->
+
+            <div class="space-y-4 md:border-r-[1px] border-[rgb(231,231,231,1)] border-b-[1px] md:border-b-0 py-3">
+
+                <img class="mx-auto" src="images/divorce.png" alt="">
+
+                <h3 class="text-center font-bold">Divorce Law</h3>
+
+                <p class="w-1/2 mx-auto text-center">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.
+                </p>
+
+                <div class="text-center">
+                    <button class="btn btn-circle bg-primary">
+                        <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Box-6 -->
+
+            <div class="space-y-4 pb-3 py-3">
+
+                <img class="mx-auto" src="images/tax.png" alt="">
+
+                <h3 class="text-center font-bold">Tax Law</h3>
+
+                <p class="w-1/2 mx-auto text-center">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.
+                </p>
+
+                <div class="text-center">
+                    <button class="btn btn-circle bg-primary">
+                        <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Practice area section ends -->
 
     </main>
 
